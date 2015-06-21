@@ -87,7 +87,7 @@ body {
 	}
 }
 
-#post_content{
+#post_content {
 	background: white;
 	padding: 2em 5%;
 	border-radius: .5em;
@@ -95,12 +95,46 @@ body {
 		font-weight: 100;
 		font-size: 2em;
 		color: #397CAC;
-		margin-top: 0;
+		margin-top: 20;
 	}
 	p {
 		color: #708090;
 		font-size: 0.9rem;
 		font-weight: 100;
 		line-height: 1.5;
+	}
+	#comments {
+		.comment {
+			border-bottom: 1px solid #d1D1D1;
+			padding-bottom: 1em;
+			margin-bottom: 1em;
+			.content: {
+				width: 85%;
+				float: left;
+			}
+			.buttons {
+				width: 15%;
+				float: left;
+				font-size: .8em;
+				text-align: right;
+				a {
+					color: #397CAC;
+					border: 1px solid #397CAC;
+					padding: .5em 1em;
+					border-radius: 0.2em;
+					text-decoration: none;
+				}
+			}
+			.comment_content {
+				margin: 0;
+				padding: 0;
+			}
+			.comment_author {
+				color: #397CAC;
+				margin-top: .5rem;
+				font-size: 0.5em;
+				font-weight: 700;
+			}
+		}
 	}
 }
