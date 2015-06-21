@@ -34,8 +34,8 @@ body {
 	clear: both;
 }
 .main_header{
-	width: 20%;
-	max-width: 720px;
+	width: 60%;
+	max-width: 1140px;
 	margin: 0 auto;
 	background: white;
 	#logo {
@@ -83,5 +83,23 @@ body {
 			font-size: 0.9rem;
 			color: #708090;
 		}
+	}
+}
+
+#post_content{
+	background: white;
+	padding: 2em 5%;
+	border-radius: .5em;
+	h1 {
+		font-weight: 100;
+		font-size: 2em;
+		color: #397CAC;
+		margin-top: 0;
+	}
+	p {
+		color: #708090;
+		font-size: 0.9rem;
+		font-weight: 100;
+		line-height: 1.5;
 	}
 }
